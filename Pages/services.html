@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - AutoMax Motors</title>
+    <link rel="stylesheet" href="../Css/Styles.css">
+
+</head>
+<body>
+<header>
+    <img src="../Assets/d443a79e-6b7c-4db8-87b0-0d7a8c735265.png" alt="AutoMax Motors Logo" width="120">
+    <nav class="nav-links">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html" class="active">Services</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</header>
+
+
+    <main>
+    <h1>Our Services</h1>
+
+    <section class="staff-container">
+        <div class="staff-member">
+            <img src="../Assets/Car Sales.avif" alt="Car Sales" class="staff-img">
+            <p><strong>Car Sales</strong><br>
+            A wide range of high-performance and affordable vehicles to suit every lifestyle and budget.</p>
+        </div>
+        <div class="staff-member">
+            <img src="../Assets/handshake.jpg" alt="Financing Options" class="staff-img" />
+            <p><strong>Financing</strong><br />
+            Flexible financing plans with easy monthly repayments to make your dream car a reality.</p>
+        </div>
+
+        <div class="staff-member">
+            <img src="../Assets/pexels-shkrabaanthony-7144207.jpg" alt="Trade-In Service" class="staff-img" />
+            <p><strong>Trade-In</strong><br />
+            Trade in your old vehicle and get the best value towards your new purchase.</p>
+        </div>
+
+        <div class="staff-member">
+            <img src="../Assets/Warranty.webp" alt="Warranty" class="staff-img" />
+            <p><strong>Warranty</strong><br />
+            Peace of mind with our comprehensive warranties covering mechanical and electrical components.</p>
+        </div>
+
+        <div class="staff-member">
+            <img src="../Assets/Maintenance.jpg" alt="Service Center" class="staff-img" />
+            <p><strong>After-Sales Support</strong><br />
+            Expert maintenance, servicing, and repairs from our certified technicians.</p>
+        </div>
+        
+    </section>
+</main>
+
+    </main>
+
+    <footer>
+        <p>This website (AutoMax Motors) is copyright protected by the laws of South Africa and the rest of the African Countries represented on this website and by International Treaties. 
+        No part of this website (AutoMax Motors) may be saved or stored, reproduced, 
+        used or transmitted in any form or by any electronic or mechanical means, 
+        including, but not limited to storage thereof by e-mail or any other means, 
+        and the use thereof on any other website and/or any other media form, 
+        without the written and express permission of AutoMax Motors.
+        </p>
+        <p>&copy; 2025 AutoMax Motors</p>
+    </footer>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            hamburger.classList.toggle('active'); 
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoMax Motors - Home</title>
+    <link rel="stylesheet" href="./Css/Styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <img src="./Assets/d443a79e-6b7c-4db8-87b0-0d7a8c735265.png" alt="AutoMax Motors Logo" width="120">
+        
+<nav class="nav-links">
+  <ul>
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="Pages/about.html">About Us</a></li>
+    <li><a href="Pages/services.html">Services</a></li>
+    <li><a href="Pages/contact.html">Contact Us</a></li>
+  </ul>
+</nav>
+
+         
+        <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+        </div>
+    </header>
+
+    <main>
+        
+          <h1>Welcome to AutoMax Motors</h1>
+             <div class="responsive-text">
+           <p>Your trusted partner for quality vehicles,expert servicing, and unbeatable deals. Whether you're buying new,certified pre-owned, or looking for maintenance, we’ve got you covered.</p>
+            </div>
+         <section>
+              <img src="./Assets/06fda907-1695-4778-8cd1-706570818e1d.png" alt="Car Showroom" width="100%">
+         </section>
+
+         <section class="vid">
+                <video src="https://youtu.be/iuVvfAyrCGs" controls></video>
+         </section>
+    </main>
+
+    <footer>
+      <p>This website (AutoMax Motors) is copyright protected by the laws of South Africa and the rest of the African Countries represented on this website and by International Treaties. 
+                No part of this website (AutoMax Motors) may be saved or stored, reproduced, 
+                used or transmitted in any form or by any electronic or mechanical means, 
+                including, but not limited to storage thereof by e-mail or any other means, 
+                and the use thereof on any other website and/or any other media form, 
+                without the written and express permission of AutoMax Motors.
+
+      </p>   
+      <div class="socials">
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        <p>&copy; 2025 AutoMax Motors</p>
+    </footer>
+    <script>
+            const hamburger = document.querySelector('.hamburger');
+            const navLinks = document.querySelector('.nav-links');
+
+            hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            hamburger.classList.toggle('active'); 
+            });
+        </script>
+</body>
+</html>
